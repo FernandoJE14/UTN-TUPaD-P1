@@ -62,14 +62,14 @@
 # elif media == moda == mediana:
 #     print("Sin sesgo")
 # else:
-#     pass
+#     print("No se puede determinar si esta distribución tiene sesgo o no")
 
 # 7)
 
 # string = input("Ingrese una frase o palabra: ")
 # ultima_letra = string[-1].lower()
 
-# if ultima_letra in ("a", "e", "i", "o", "u"):
+# if ultima_letra in ("aeiou"):
 #     print(f"{string} !")
 # else:
 #     print(string)
@@ -103,5 +103,31 @@
 # else:
 #     print("Extremo (puede causar graves daños a gran escala)") 
 
+# 10)
 
+# hemisferio = input("Por favor, ingrese el hemisferio (Norte/Sur): ")
+# hemisferio = hemisferio.lower()
+
+# mes = int(input("Por favor, ingrese el mes del año en números: "))
+
+# dia = int(input("Por favor, ingrese el día del mes en números: "))
+
+# if hemisferio == "sur":
+#   if (mes == 12 and dia >= 21) or (mes in (1,2)) or (mes == 3 and dia <= 20):
+#     print("Verano")
+#   elif (mes == 3 and dia >= 21) or (mes in (4,5)) or (mes == 6 and dia <= 20):
+#     print("Otoño")
+#   elif (mes == 6 and dia >= 21) or (mes in (7,8)) or (mes == 9 and dia <= 20):
+#     print("Invierno")
+#   elif (mes == 9 and dia >= 21) or (mes in (10,11)) or (mes == 12 and dia <= 20):
+#     print("Primavera")   
+# elif hemisferio == "norte":
+#   if (mes == 12 and dia >= 21) or (mes in (1,2)) or (mes == 3 and dia <= 20):
+#     print("Invierno")
+#   elif (mes == 3 and dia >= 21) or (mes in (4,5)) or (mes == 6 and dia <= 20):
+#     print("Primavera")
+#   elif (mes == 6 and dia >= 21) or (mes in (7,8)) or (mes == 9 and dia <= 20):
+#     print("Verano")
+#   elif (mes == 9 and dia >= 21) or (mes in (10,11)) or (mes == 12 and dia <= 20):
+#     print("Otoño")
 
