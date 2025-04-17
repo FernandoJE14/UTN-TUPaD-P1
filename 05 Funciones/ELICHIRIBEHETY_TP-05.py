@@ -73,17 +73,20 @@
 
 # 7)
 
-# # Definir funciones
-# def operaciones_basicas(a, b):
-#     print(f"{a} + {b} = {a + b}")
-#     print(f"{a} - {b} = {a - b}")
-#     print(f"{a} x {b} = {a * b}")
-#     print(f"{a} / {b} = {round((a / b), 2)}")
+# Definir funciones
+def operaciones_basicas(a, b):
+    print(f"{a} + {b} = {a + b}")
+    print(f"{a} - {b} = {a - b}")
+    print(f"{a} x {b} = {a * b}")
+    if b == 0:
+        print(f"{a} / {b} = No se puede dividir por 0")
+    else:    
+        print(f"{a} / {b} = {round((a / b), 2)}")
 
-# # Programa principal
-# a = float(input("Ingrese el primer numero: "))
-# b = float(input("Ingrese el segundo numero: "))
-# operaciones_basicas(a, b)
+# Programa principal
+a = float(input("Ingrese el primer numero: "))
+b = float(input("Ingrese el segundo numero: "))
+operaciones_basicas(a, b)
 
 # 8)
 
