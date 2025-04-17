@@ -99,7 +99,7 @@
 
 # for cont in range(1,cant_num+1):
 #     num = int(input(f"Ingrese el {cont} numero: "))
-#     if num >= 0:
+#     if num > 0:
 #         positivos += 1
 #     elif num < 0:
 #         negativos += 1
@@ -118,7 +118,7 @@
 
 # 9)
 
-# cant_num = 5
+# cant_num = 100
 # suma = 0
 
 # for cont in range(1,cant_num+1):
